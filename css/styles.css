@@ -1,0 +1,108 @@
+
+/* ESTILOS GENERALES */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #26334d;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #24458f;
+}
+
+/* SECCION PRINCIPAL */
+
+.hero {
+    background-color: #243f8f;
+    min-height: 190px;
+}
+
+.hero h1 {
+    max-width: 650px;
+}
+
+.hero p {
+    max-width: 650px;
+}
+
+/* TARJETAS DE SERVICIOS */
+
+.servicio-web {
+    background-color: #dceaff;
+}
+
+.servicio-desarrollo {
+    background-color: #e1e7ff;
+}
+
+.servicio-sistemas {
+    background-color: #d5f7f8;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* PROYECTO DESTACADO */
+
+.imagen-proyecto {
+    background-color: #cbd5e1;
+    height: 130px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #52647d;
+}
+
+/* INFORMACION */
+
+.informacion {
+    background-color: #fce7f3;
+}
+
+/* CONTACTO */
+
+.contacto {
+    background-color: #192c5d;
+}
+
+/* PIE DE PAGINA */
+
+.pie {
+    background-color: #111827;
+    font-size: 13px;
+}
+
+/* AJUSTES PARA CELULARES */
+
+@media (max-width: 576px) {
+    .hero {
+        padding: 25px !important;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .imagen-proyecto {
+        height: 110px;
+    }
+}
